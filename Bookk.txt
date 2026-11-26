@@ -1,0 +1,4 @@
+BOOK,23,Math,Jorge Grayce,true
+PRINTED,13,Digital Logic,Alan Turen,false,210
+EBOOK,76,Learning AI,David Cogh,false,22,PDF
+BOOK,2,java,alan,false
