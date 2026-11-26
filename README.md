@@ -1,1 +1,37 @@
-📚 Advanced Java Library Management SystemA robust console-based application built in Java designed to manage library operations efficiently using Object-Oriented Programming (OOP) principles.🚀 Key FeaturesBook Hierarchies (Book Types): Supports three types of books:Standard Book: Standard books with flexible constructor overloading based on ID, title, and author.E-Book: Digital books including file size (MB) and format type (PDF/EPUB).Printed Book: Physical books tracking the number of pages.Borrow & Return Management: A comprehensive system for tracking book statuses (Available 🟢 vs. Borrowed 🔴) and preventing duplicate borrowing or invalid returns.Search & Filter: Ability to search for books by ID, display available books, view borrowed books, and track the total count of borrowed books.Remove Book: Secure removal of books, ensuring that currently borrowed books cannot be deleted.File I/O Persistence: Automatic saving and loading of all library data using Bookk.txt via FileWriter and BufferedReader.CLI & Exception Handling: A clean, formatted ASCII user interface combined with robust exception handling for user inputs.🏗️ Technical Architecture & OOP PrinciplesInheritance: EBook and PrintedBook inherit from the base Book class.Polymorphism: Method overriding (@Override) for methods like displayBookInfo() and stringToFile() to tailor behavior for specific book types.Collections: Utilizes ArrayList<Book> for storing and managing books in memory.   🛠️ How to RunOpen the project in an IDE such as Eclipse, IntelliJ IDEA, or VS Code.Run Main.java as the entry point.   Choose options ranging from 0 to 10 from the main menu to perform library operations.
+# 📚 Advanced Java Library Management System
+
+A robust console-based application built in **Java** designed to manage library operations efficiently using Object-Oriented Programming (OOP) principles.
+
+## 🚀 Key Features
+
+* **Book Hierarchies (Book Types):** Supports three types of books:
+* **Standard Book:** Standard books with flexible constructor overloading based on ID, title, and author.
+* **E-Book:** Digital books including file size (MB) and format type (PDF/EPUB).
+* **Printed Book:** Physical books tracking the number of pages.
+
+
+* **Borrow & Return Management:** A comprehensive system for tracking book statuses (Available 🟢 vs. Borrowed 🔴) and preventing duplicate borrowing or invalid returns.
+* **Search & Filter:** Ability to search for books by ID, display available books, view borrowed books, and track the total count of borrowed books.
+* **Remove Book:** Secure removal of books, ensuring that currently borrowed books cannot be deleted.
+* **File I/O Persistence:** Automatic saving and loading of all library data using `Bookk.txt` via `FileWriter` and `BufferedReader`.
+* **CLI & Exception Handling:** A clean, formatted ASCII user interface combined with robust exception handling for user inputs.
+
+---
+
+## 🏗️ Technical Architecture & OOP Principles
+
+* **Inheritance:** `EBook` and `PrintedBook` inherit from the base `Book` class.
+* **Polymorphism:** Method overriding (`@Override`) for methods like `displayBookInfo()` and `stringToFile()` to tailor behavior for specific book types.
+* **Collections:** Utilizes `ArrayList<Book>` for storing and managing books in memory.
+
+
+
+---
+
+## 🛠️ How to Run
+
+1. Open the project in an IDE such as **Eclipse**, **IntelliJ IDEA**, or **VS Code**.
+2. Run `Main.java` as the entry point.
+
+
+3. Choose options ranging from `0` to `10` from the main menu to perform library operations.
